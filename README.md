@@ -2,15 +2,33 @@
 
 Shenyue Jia | [jiashenyue.info](https://jiashenyue.info)
 
-- Downloaded data and saved them in `/Data` folder
-  - `title.basics.tsv.gz`
-  - `title.ratings.tsv.gz`
-  - `title.akas.tsv.gz`
-- Applied a series of cleaning and filtering process over
-  - Replace all `\N` in the original data to `NaN` values
-  - Eliminate movies that are null for `runtimeMinutes`
-  - Eliminate movies that are null for `genre`
-  - Keep only `titleType`==`Movie`
-  - Keep `startYear` 2000-2021
-  - Eliminate movies that include "Documentary" in `genre` (see tip below)
-  - Keep only US movies
+## Question to answer
+- Analyze the movie data from IMDb to support decision-making on a successful movie production
+  - Current goal of a successful movie: generate a high revenue with a low budget
+
+## IMDb data
+- [IMDb data dictionary](https://www.imdb.com/interfaces/)
+- [IMDb API](https://developer.imdb.com/)
+
+## Filtered IMDb data for analysis
+- Focus on movies released in the U.S.
+- Focus on movies produced after 2000 up until 2021
+- Only consider the `movie` type
+
+## TMDB data
+- With more information than IMDb, such as
+  - Revenue
+  - Budget
+- Has a shared key with IMDb to be combined with IMDb data
+  - `imdb_id` = `tconst`
+- [TMDB API](https://developers.themoviedb.org/3/getting-started/introduction)
+- [TMDB wrapper](https://github.com/celiao/tmdbsimple)
+
+## Use TMDB API to obtain financial data of movies for selected years
+- [Data of 2000](https://github.com/jiashenyue/project3-imdb-data/blob/main/Data/final_tmdb_data_2000.csv.gz)
+- [Data of 2001](https://github.com/jiashenyue/project3-imdb-data/blob/main/Data/final_tmdb_data_2001.csv.gz)
+- [Data of 2000 and 2001 combined](https://github.com/jiashenyue/project3-imdb-data/blob/main/Data/tmdb_results_combined.csv.gz)
+
+## Expalantory Data Analysis for TMDB data 2000 and 2001
+### Movies with some valid financial data
+![png]
