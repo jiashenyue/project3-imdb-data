@@ -152,3 +152,5 @@ cython_debug/
 #.idea/
 Data/title_akas.csv.gz
 Data/title_basics.csv.gz
+Data/title_akas_large.csv.gz
+Data/title_basics_large.csv.gz
