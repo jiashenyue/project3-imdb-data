@@ -57,3 +57,6 @@ PG-13	| 47
 G |	44
 R |	27
 NR| 14
+
+## Converted tables to a relational database
+- A MySQL database named `movies` is created using the notebook [relational-database-constrution](https://github.com/jiashenyue/project3-imdb-data/blob/main/relational-database-construction.ipynb)
