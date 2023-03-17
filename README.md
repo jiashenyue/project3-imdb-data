@@ -36,6 +36,9 @@ Shenyue Jia | [jiashenyue.info](https://jiashenyue.info)
 - [Data of 2001](https://github.com/jiashenyue/project3-imdb-data/blob/main/Data/final_tmdb_data_2001.csv.gz)
 - [Data of 2000 and 2001 combined](https://github.com/jiashenyue/project3-imdb-data/blob/main/Data/tmdb_results_combined.csv.gz)
 
+## Converted tables to a relational database
+- A MySQL database named `movies` is created using the notebook [relational-database-constrution](https://github.com/jiashenyue/project3-imdb-data/blob/main/relational-database-construction.ipynb)
+
 ## Expalantory Data Analysis for TMDB data 2000 and 2001
 ### Revenue of all movies with valid financial information
 ![png](https://github.com/jiashenyue/project3-imdb-data/blob/main/PNG/revenue_combo_plot.png)
@@ -65,8 +68,6 @@ G |	44
 R |	27
 NR| 14
 
-## Converted tables to a relational database
-- A MySQL database named `movies` is created using the notebook [relational-database-constrution](https://github.com/jiashenyue/project3-imdb-data/blob/main/relational-database-construction.ipynb)
 
 ## Understand the factor influecing revenue and rating by hypothesis test
 ### 1. Does the MPAA rating of a movie (G/PG/PG-13/R) affect how much revenue the movie generates?
