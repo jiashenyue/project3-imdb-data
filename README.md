@@ -6,6 +6,13 @@ Shenyue Jia | [jiashenyue.info](https://jiashenyue.info)
 - Analyze the movie data from IMDb to support decision-making on a successful movie production
   - Current goal of a successful movie: generate a high revenue with a low budget
 
+## Notebooks
+- [x] [Create imdb database](https://github.com/jiashenyue/project3-imdb-data/blob/main/create-imdb-database.ipynb)
+- [x] [Request tmdb data](https://github.com/jiashenyue/project3-imdb-data/blob/main/request-tmdb-data.ipynb)
+- [x] [Explanatory data analysis](https://github.com/jiashenyue/project3-imdb-data/blob/main/explanatory-data-analysis.ipynb)
+- [x] [Create a relational database using MySQL](https://github.com/jiashenyue/project3-imdb-data/blob/main/relational-database-construction.ipynb)
+- [x] [Use hypothesis test to understand the factors influcing the ratings and revenues of movies](https://github.com/jiashenyue/project3-imdb-data/blob/main/hypothesis-test.ipynb)
+
 ## IMDb data
 - [IMDb data dictionary](https://www.imdb.com/interfaces/)
 - [IMDb API](https://developer.imdb.com/)
